@@ -24,6 +24,7 @@ html{
 }
 
 body{
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
@@ -54,6 +55,7 @@ body, button, input, textarea{
 input, button, .button{
     border-radius: .8rem;
     height: 5rem;
+    margin-left: 0;
 }
 
 button, .button{
