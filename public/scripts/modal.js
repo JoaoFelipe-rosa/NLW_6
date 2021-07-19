@@ -1,12 +1,13 @@
-export default function Modal(){
-    function open(){
+export default function Modal() {
+    function open() {
         document.querySelector('.modal-wrapper').classList.add("active")
 
     }
-    function close(){
+
+    function close() {
 
     }
-    return{
+    return {
         open,
         close
     }
