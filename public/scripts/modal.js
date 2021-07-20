@@ -1,6 +1,6 @@
 export default function Modal() {
     function open() {
-        document.querySelector('.modal-wrapper').classList.add("active")
+        document.querySelector(".modal-wrapper").classList.add("active")
 
     }
 
@@ -13,3 +13,5 @@ export default function Modal() {
     }
 
 }
+
+console.log('modal')
